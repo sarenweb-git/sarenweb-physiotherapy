@@ -1,0 +1,576 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+@media only screen and (max-width:1500px){
+
+}
+
+@media only screen and (max-width:1400px){
+    .introduction-right__shape{
+        left: 11rem;
+    }
+
+    .row--background{
+        padding-left: 2.3rem;
+    }
+
+    .aboutus__caption{
+        width: 50rem;
+    }
+
+    .aboutus__imageone{
+        height: 330px;
+    }
+
+    .aboutus__imagetwo{
+        height: 337px;
+    }
+
+    .aboutus-phone__info-title::after{
+        width: 25rem;
+    }
+
+    .colleagues-pack{
+        width: 340px;
+    }
+    .performance-call {
+        width: 246px;
+        height: 266px;
+    }
+
+    .performance__text{
+        max-width: 73rem;
+    }
+
+    .performance-call__caption{
+        top: 63px;
+    }
+
+    .circle__wrapper{
+        margin-top: 1rem;
+    }
+
+    .footer__caption{
+        width: 64rem;
+    }
+}
+
+@media only screen and (max-width:1200px){
+    .search-wrapper{
+        width: 42rem;
+    }
+
+    .introduction-right__shape{
+        width: 255px;
+        left: 19rem;
+    }
+
+    .introduction__title{
+        line-height: 1.7;
+    }
+
+    .introduction-arrow__down{
+        width: 155px;
+        left: 46rem;
+    }
+
+    .departments-pack{
+        max-width: none;
+    }
+
+    .aboutus__caption {
+        width: 40rem;
+    }
+
+    .aboutus-hope__wrapper{
+        margin-top: 2rem;
+    }
+
+    .aboutus-phone__info{
+        margin-top: 3rem;
+    }
+
+    .aboutus-phone__info-title::after {
+        width: 15rem;
+    }
+
+    .aboutus__imageone, 
+    .aboutus__imagetwo{
+        width: 235px;
+    }
+
+    .aboutus__imageone {
+        height: 295px;
+    }
+
+    .aboutus__imagetwo{
+        height: 337px;
+    }
+
+    .aboutus__imagetwo {
+        height: 300px;
+    }
+
+    .colleagues-pack{
+        width:280px;
+    }
+
+    .performance-call{
+        margin: 0 auto;
+    }
+
+    .row--justify{
+        justify-content: center;
+    }
+
+    .performance-call {
+        width: 302px;
+        height: 275px;
+        margin-top: 7rem;
+    }
+
+    .performance__text {
+        max-width: none;
+    }
+
+    .col--child:nth-child(3){
+        display: none;
+    }
+
+    .circle__wrapper{
+        margin-top: 3rem;
+    }
+
+    .blog-background{
+        margin-top: 3rem;
+        width: 290px;
+    }
+    
+    .footer__caption{
+        width: 52rem;
+    }
+}
+
+@media only screen and (max-width:992px){
+
+    .logo-text__medium{
+        font-size: 0.9rem;
+    }
+
+    .search-wrapper {
+        width: 27rem;
+    }
+
+    .search-text{
+        font-size: 1rem;
+    }
+
+    .search__icon{
+        width: 20px;
+        height: 20px;
+    }
+
+    .section__button{
+        font-size: 1.3rem;
+    }
+
+
+    .menu__links{
+        font-size: 13px;
+    }
+
+    .items-wrapper{
+        gap: 2rem;
+    }
+
+    .introduction__img{
+        width: 450px;
+    }
+
+    .introduction__title{
+        font-size: 2.8rem;
+    }
+
+    .introduction-right__shape{
+        width: 270px;
+        left: -1rem;
+        top: -2px;
+    }
+
+    .introduction-arrow__down {
+        width: 130px;
+        left: 36rem;
+    }
+
+    .row--background{
+        margin-top: -4rem;
+    }
+
+    .aboutus-wrapper{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+            -ms-flex-direction: column-reverse;
+                flex-direction: column-reverse;
+    }
+
+    .aboutus__title {
+        font-size: 2.2rem;
+        text-align: center;
+    }
+
+    .aboutus__caption {
+        width: 100%;
+    }
+
+    .aboutus-phone__info-title::after {
+        width: 44rem;
+    }
+
+    .aboutus__imageone, 
+    .aboutus__imagetwo {
+        width: 100%;
+        height: 100%;
+    }
+
+    .colleagues-pack {
+        width: 200px;
+    }
+
+    .blog-pack{
+        margin-top: 12rem;
+        margin-bottom: 0;
+    }
+
+    .blog-background{
+        width: 315px;
+        height: 336px;
+        margin: 5rem auto;
+    }
+
+    .col--child:nth-child(3),
+    .col--child:nth-child(2){
+        display: none;
+    }
+
+    .circle__wrapper{
+        margin-top: -5rem;
+    }
+
+    .reservation__image{
+        display: block;
+        margin: 0 auto;
+    }
+
+    .footer__caption{
+        width: 66rem;
+    }
+
+    .social__wrapper{
+        padding: 1rem 0rem 1rem 1rem;
+    }
+    
+}
+
+@media only screen and (max-width:768px){
+    .search-wrapper {
+        display: none;
+    }
+
+    .header-icon__responsive{
+        display: block;
+        color: var(--primary-color);
+        font-size: 2.5rem;
+        margin-top: auto;
+    }
+
+    .menu{
+        position: fixed;
+        width: 34rem;
+        right: -34rem;
+        top: 8.6rem;
+        bottom: 0;
+        background-color:rgb(124 115 192 / 40%);
+        margin: 0;
+        -webkit-transition: all 0.3s linear;
+        -o-transition: all 0.3s linear;
+        transition: all 0.3s linear;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        z-index: 1;
+        border-top-left-radius: 1rem;
+        border-bottom-left-radius: 1rem;
+    }
+
+    .items-wrapper{
+        gap: 1.5rem;
+        margin-top: 6%;
+        margin-right: 8%;
+        background-color: var(--body-color);
+        max-width: 28rem;
+        padding: 2rem;
+        border-radius: 1rem;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+
+    .menu__items {
+        margin-bottom: 1.5rem;
+    }
+
+    .menu__items:last-child{
+        margin-bottom: 0;
+    }
+
+    .menu__links{
+        -webkit-transition: all 200ms ease;
+        -o-transition: all 200ms ease;
+        transition: all 200ms ease;
+        font-size: 14px;
+    }
+
+    .menu__links:hover{
+        -webkit-transform: translateX(-2rem);
+            -ms-transform: translateX(-2rem);
+                transform: translateX(-2rem);
+    }
+
+    .items-image{
+        display: block;
+        width: 200px;
+        border-radius: 11rem;
+        margin: 2rem auto;
+    }
+
+    .section__button--none{
+        display: none;
+    }
+
+    .introduction__wrapper{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+            -ms-flex-direction: column-reverse;
+                flex-direction: column-reverse;
+    }
+
+    .introduction__img {
+        width: 420px;
+    }
+
+    .introduction__shape{
+        width: 230px;
+        top: 107px;
+        left: 41px;
+    }
+
+    .introduction__title {
+        font-size: 2.8rem;
+        max-width: 36rem;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .introduction-right__shape {
+        width: 240px;
+        left: 20.5rem;
+        top: -39px;
+        height: 125px;
+    }
+
+    .introduction-arrow__down {
+       display: none;
+    }
+
+    .row--background{
+        margin-top: 4rem;
+    }
+
+    .departments-pack{
+        max-width: 217px;
+    }
+
+    .aboutus-phone__info-title::after {
+        width: 27rem;
+    }
+
+    .colleagues-pack{
+        width: 245px;
+    }
+
+    .performance-call__link{
+        right: -96px;
+        bottom: 59px;
+        width: auto;
+        z-index: 1;
+    }
+
+    .blog-pack{
+        margin-top: 1rem;
+        margin-bottom: 5rem;
+    }
+
+    .social__wrapper{
+        width: auto;
+        flex-wrap: wrap;
+    }
+    
+    .footer__caption{
+        width: 50rem;
+    }
+}
+
+@media only screen and (max-width:576px){
+    .introduction-right__shape {
+        display: none;
+    }
+
+    .btn--size {
+        width: 100%;
+    }
+
+    .departments-pack{
+        max-width: none;
+    }
+
+    .aboutus-hope__text{
+        font-size: 1.5rem;
+    }
+
+    .aboutus-btn{
+        font-size: 1.5rem;
+        width: 10rem;
+        padding: 0.5rem;
+    }
+
+    .aboutus-phone__info{
+        -webkit-box-pack: right;
+            -ms-flex-pack: right;
+                justify-content: right;
+        gap: 0.8rem;
+       
+    }
+
+    .aboutus-phone__info-title::after{
+        content: none;
+    }
+
+    .aboutus__imageone, .aboutus__imagetwo {
+        width: 50%;
+        height: 50%;
+    }
+
+    .colleagues-pack{
+        width: 100%;
+        margin-bottom: -4rem;
+    }
+
+    .performance-pack{
+        border-radius: 1.5rem;
+        margin-left: 0.8rem;
+        max-width: none;
+    }
+
+    .performance-call__link{
+        right: -57px;
+    }
+
+    .reservation__image{
+        width: 350px;
+    }
+
+    .footer__caption{
+        width: 100%;
+    }
+
+    .col--padding{
+        padding-left: 15px;
+    }
+
+    .col--one{
+        padding-left: 15px;
+    }
+}
+
+@media only screen and (max-width:400px){
+    .logo__image{
+        width: 40px;
+    }
+
+    .logo__text {
+        font-size: 1.1rem;
+    }
+
+    .logo-text__medium {
+        font-size: 0.8rem;
+    }
+
+    .header-icon__responsive {
+        font-size: 1.6rem;
+    }
+
+    .introduction__img {
+        width: 380px;
+    }
+
+    .introduction__shape {
+        width: 200px;
+        top: 107px;
+        left: 6px;
+    }
+
+    .aboutus-right__pack{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+            -ms-flex-direction: column-reverse;
+                flex-direction: column-reverse;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+
+    .aboutus__imageone, 
+    .aboutus__imagetwo {
+        width: 100%;
+        height: 100%;
+    }
+
+    .performance-call{
+        width: 264px;
+        height: 255px;
+    }
+
+    .performance-call__text{
+        padding: 1rem 2rem;
+        font-size: 1.7rem;
+        right: -15px;
+    }
+
+    .performance-call__caption{
+        font-size: 1.3rem;
+        right: -15px;
+    }
+
+    .performance-call__link{
+        font-size: 1.3rem;
+        right: -15px;
+    }
+
+    .blog-background{
+        width: 100%;
+    }
+
+    .reservation__image{
+        width: 100%;
+    }
+
+    .footer__title{
+        font-size: 1.4rem;
+    }
+
+}

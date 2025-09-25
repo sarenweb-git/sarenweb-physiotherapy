@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "Shabnam Bold";
+    src: url(/fonts/fonts/Shabnam-Bold-WOL.woff);
+}
+
+@font-face {
+    font-family: "Shabnam Light";
+    src: url(/fonts/fonts/Shabnam-Light-WOL.woff);
+}
+
+@font-face {
+    font-family: "Shabnam Medium";
+    src: url(/fonts/fonts/Shabnam-Medium-WOL.woff);
+}
+
+@font-face {
+    font-family: "Shabnam Thin";
+    src: url(/fonts/fonts/Shabnam-Thin-WOL.woff);
+}
